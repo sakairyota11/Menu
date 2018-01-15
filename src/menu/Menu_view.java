@@ -135,11 +135,11 @@ public class Menu_view extends Frame implements ActionListener,WindowListener{
 		// TODO Auto-generated method stub
 		CardLayout cardlayout = (CardLayout)(cardPanel.getLayout());
 		if(e.getSource() == graph1) {
-            setBackground(Color.red);
+            card1.setBackground(Color.red);
             cardlayout.show(cardPanel, "Card1");
         }
         if(e.getSource() == graph2) {
-            setBackground(Color.blue);
+            card2.setBackground(Color.blue);
             cardlayout.show(cardPanel, "Card2");
         }
 
